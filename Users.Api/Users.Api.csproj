@@ -7,7 +7,10 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Users\Users.csproj" />
+      <ProjectReference Include="..\Users\Users.csproj" >
+        <PrivateAssets>all</PrivateAssets>
+      </ProjectReference>
+        
     </ItemGroup>
 
 </Project>

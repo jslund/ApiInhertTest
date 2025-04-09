@@ -7,7 +7,9 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Pets\Pets.csproj" />
+      <ProjectReference Include="..\Pets\Pets.csproj" >
+        <PrivateAssets>all</PrivateAssets>
+      </ProjectReference>
     </ItemGroup>
 
 </Project>
